@@ -7,6 +7,7 @@ const TerserPlugin = require("terser-webpack-plugin");
 module.exports = {
   mode: "none",
   entry: {
+    YB: "./src/index.js",
     "YB.min": "./src/index.js",
   },
   output: {
